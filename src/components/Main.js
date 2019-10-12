@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 import Counter from "./Counter";
 
 class Main extends React.Component {
@@ -14,7 +15,10 @@ class Main extends React.Component {
 
 		return (
 			<main>
+				<Button />
 				<Counter count={count} />
+				<Button />
+				<Button />
 			</main>
 		);
 	};
