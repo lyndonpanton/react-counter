@@ -35,8 +35,21 @@ class Main extends React.Component {
 	render() {
 		const count = this.state.count;
 
+
+		const mainStyling = {
+			display: "flex",
+			flexDirection: "row",
+			flexWrap: "wrap",
+			justifyContent: "space-around",
+			alignItems: "center",
+
+			margin: "40px 0",
+			padding: "10px 20%",
+			fontSize: "20px"
+		};
+
 		return (
-			<main>
+			<main style={mainStyling}>
 				<Button />
 				<Counter count={count} />
 				<Button />
