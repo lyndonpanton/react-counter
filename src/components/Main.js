@@ -26,6 +26,12 @@ class Main extends React.Component {
 		});
 	};
 
+	handleReset = () => {
+		this.setState({
+			count: 0
+		});
+	};
+
 	render() {
 		const count = this.state.count;
 
