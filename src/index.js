@@ -6,5 +6,5 @@ import App from "./components/App";
 // the render method is for displaying elements, components
 ReactDOM.render(
 	<App />, // this component is placed inside...
-	document.getElementById("root") // ...this element
+	document.getElementById("root") // ...this element in the html file
 );
