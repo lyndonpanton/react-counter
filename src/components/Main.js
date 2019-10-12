@@ -1,4 +1,5 @@
 import React from "react";
+import Counter from "./Counter";
 
 class Main extends React.Component {
 	constructor(props) {
@@ -9,9 +10,11 @@ class Main extends React.Component {
 	};
 
 	render() {
+		const count = this.state.count;
+
 		return (
 			<main>
-
+				<Counter count={count} />
 			</main>
 		);
 	};
