@@ -1,9 +1,21 @@
 import React from "react";
 
 const Header = (props) => {
+	const headerStyling = {
+		margin: 0,
+		padding: "5px 0",
+		backgroundColor: "#FA7600",
+		color: "#FFFFFF"
+	};
+
+	const headingStyling = {
+		margin: 0,
+		textAlign: "center"
+	};
+
 	return (
-		<header>
-			<h1>React Counter</h1>
+		<header style={headerStyling}>
+			<h1 style={headingStyling}>React Counter</h1>
 		</header>
 	);
 };
