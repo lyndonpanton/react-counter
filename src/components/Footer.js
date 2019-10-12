@@ -10,7 +10,7 @@ const Footer = (props) => {
 
 	return (
 		<footer style={footerStyling}>
-			<p>&copy; 2019 Lyndon Panton | All Rights Reserved</p>
+			<p>&copy; {props.year} {props.author} | {props.copyright}</p>
 		</footer>
 	);
 };
