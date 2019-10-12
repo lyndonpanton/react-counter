@@ -1,5 +1,7 @@
 import React from "react";
-import Header from "./Header"
+import Header from "./Header";
+
+import "../assets/styles/main.css";
 
 class App extends React.Component {
 	constructor(props) {
