@@ -57,6 +57,10 @@ class Main extends React.Component {
 			color: "#FFFFFF"
 		};
 
+		const plusStyling = Object.assign({}, minusStyling, {
+			backgroundColor: "#00FF00"
+		});
+
 		return (
 			<main style={mainStyling}>
 				<Button />
