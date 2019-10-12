@@ -73,9 +73,9 @@ class Main extends React.Component {
 
 		return (
 			<main style={mainStyling}>
-				<Button type="minus" icon="+" styling={minusStyling} handleClick={this.handleDecrement} />
+				<Button type="minus" icon="-" styling={minusStyling} handleClick={this.handleDecrement} />
 				<Counter count={count} />
-				<Button type="plus" icon="-" styling={plusStyling} handleClick={this.handleIncrement} />
+				<Button type="plus" icon="+" styling={plusStyling} handleClick={this.handleIncrement} />
 				<Button type="reset" icon="reset" styling={resetStyling} handleClick={this.handleReset} />
 			</main>
 		);
