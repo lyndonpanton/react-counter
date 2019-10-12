@@ -48,6 +48,15 @@ class Main extends React.Component {
 			fontSize: "20px"
 		};
 
+		const minusStyling = {
+			border: "#000000 solid 1px",
+			borderRadius: "5px",
+			width: "40px",
+			height: "40px",
+			backgroundColor: "#FF0000",
+			color: "#FFFFFF"
+		};
+
 		return (
 			<main style={mainStyling}>
 				<Button />
