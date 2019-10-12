@@ -15,7 +15,7 @@ const Header = (props) => {
 
 	return (
 		<header style={headerStyling}>
-			<h1 style={headingStyling}>React Counter</h1>
+			<h1 style={headingStyling}>{props.name}</h1>
 		</header>
 	);
 };
