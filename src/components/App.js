@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import Main from "./Main";
 import Footer from "./Footer";
 
 import "../assets/styles/main.css";
@@ -21,6 +22,7 @@ class App extends React.Component {
 		return (
 			<div className="app">
 				<Header name={name} />
+				<Main />
 				<Footer author={author} copyright={copyright} year={year} />
 			</div>
 		);
