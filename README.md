@@ -1,3 +1,27 @@
+# React Counter
+
+## How To Open
+> 1. Install node and npm
+> 2. Go to the application's download folder in a terminal
+> 3. In a terminal run _npm start_ in the application's download folder
+> 4. View to application in a browser at _http://localhost:3000/_
+
+## How To Use
+> 1. Press the _minus_ button to decrease the count
+> 2. Press the _plus_ button to increase the count
+> 3. Press the _reset_ button to set the count to 0
+
+## Requirements
+> 1. This application requires a browser to run
+> 2. That browser must have JavaScript available and enabled
+
+## User Stories
+> 1. Used the _React_ framework
+> 2. Managed, passed props and state
+> 3. Imported, exported files
+> 4. Applied styling in React
+> 5. Added methods to components
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
