@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = (props) => {
 	return (
-		<button>Decrement/Increment</button>
+		<button onClick={props.handleClick}>Decrement/Increment</button>
 	);
 };
 
