@@ -13,9 +13,11 @@ class App extends React.Component {
 	};
 
 	render() {
+		const { name } = this.state;
+
 		return (
 			<div className="app">
-				<Header />
+				<Header name={name} />
 			</div>
 		);
 	};
