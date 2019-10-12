@@ -35,7 +35,6 @@ class Main extends React.Component {
 	render() {
 		const count = this.state.count;
 
-
 		const mainStyling = {
 			display: "flex",
 			flexDirection: "row",
@@ -74,10 +73,10 @@ class Main extends React.Component {
 
 		return (
 			<main style={mainStyling}>
-				<Button styling={minusStyling} handleClick={this.handleDecrement} />
+				<Button type="minus" icon="+" styling={minusStyling} handleClick={this.handleDecrement} />
 				<Counter count={count} />
-				<Button styling={plusStyling} handleClick={this.handleIncrement} />
-				<Button styling={resetStyling} handleClick={this.handleReset} />
+				<Button type="plus" icon="-" styling={plusStyling} handleClick={this.handleIncrement} />
+				<Button type="reset" icon="reset" styling={resetStyling} handleClick={this.handleReset} />
 			</main>
 		);
 	};
