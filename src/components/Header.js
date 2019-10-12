@@ -7,7 +7,7 @@ const Header = (props) => {
 	// this is a object which contains styling
 	const headerStyling = {
 		margin: 0,
-		padding: "5px 0",
+		padding: "12px 0",
 		backgroundColor: "#FA7600",
 		color: "#FFFFFF"
 	};
