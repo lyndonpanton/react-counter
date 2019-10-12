@@ -10,6 +10,14 @@ class Main extends React.Component {
 		};
 	};
 
+	handleDecrement = () => {
+		const count = this.state.count;
+
+		this.setState({
+			count: count - 1
+		});
+	};
+
 	render() {
 		const count = this.state.count;
 
