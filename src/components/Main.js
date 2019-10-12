@@ -61,6 +61,17 @@ class Main extends React.Component {
 			backgroundColor: "#00FF00"
 		});
 
+		const resetStyling = {
+			flexBasis: "100%",
+
+			border: "#000000 solid 1px",
+			borderRadius: "5px",
+			marginTop: "10px",
+			padding: "10px 0",
+			backgroundColor: "#0000FF",
+			color: "#FFFFFF"
+		};
+
 		return (
 			<main style={mainStyling}>
 				<Button />
