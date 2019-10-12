@@ -10,6 +10,7 @@ const Footer = (props) => {
 
 	return (
 		<footer style={footerStyling}>
+			{ /* this uses props sent from its container component */ }
 			<p>&copy; {props.year} {props.author} | {props.copyright}</p>
 		</footer>
 	);
