@@ -74,10 +74,10 @@ class Main extends React.Component {
 
 		return (
 			<main style={mainStyling}>
-				<Button />
+				<Button styling={minusStyling} />
 				<Counter count={count} />
-				<Button />
-				<Button />
+				<Button styling={plusStyling} />
+				<Button styling={resetStyling} />
 			</main>
 		);
 	};
